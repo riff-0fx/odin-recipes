@@ -11,10 +11,15 @@ html {
 }
 
 .container {
-  text-align: center;
   border: 3px solid #333;
-  width: 900px;
+  width: 850px;
   margin: 0 auto;
+  padding: 10px;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
 }
 
 a {
@@ -32,7 +37,12 @@ a:hover {
   background-color: #555;
 }
 
-ul,
-ol {
-  list-style: none;
+img {
+  display: block;
+  width: 650px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
 }
